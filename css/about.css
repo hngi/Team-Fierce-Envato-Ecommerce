@@ -15,15 +15,15 @@ body {
   color: #000;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-stack);
   font-weight: bold;
   color: var(--primary-color);
-}
+} */
 
 /* Utility */
 .bg-primary {
- background-color: var(--primary-color) !important;
+  background-color: var(--primary-color) !important;
 }
 
 .bg-secondary {
@@ -59,13 +59,19 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 30px;
 }
 
-.why-us, .who, .product, .testimony, .awards {
+.why-us,
+.who,
+.product,
+.testimony,
+.awards {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
 /* Section Who */
-.who h3, .testimony h3, .awards h3 {
+.who h3,
+.testimony h3,
+.awards h3 {
   font-size: 36px;
   margin-bottom: 1rem;
 }
@@ -180,11 +186,14 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 36px;
   }
 
-  .why-us .col-md, .who .col-md:first-child {
+  .why-us .col-md,
+  .who .col-md:first-child {
     margin-bottom: 2rem;
   }
 
-  .why-us .col-md:last-child, .product .col-md:last-child, .testimony .col-md:last-child {
+  .why-us .col-md:last-child,
+  .product .col-md:last-child,
+  .testimony .col-md:last-child {
     margin-bottom: 0;
   }
 
