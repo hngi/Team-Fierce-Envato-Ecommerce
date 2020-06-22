@@ -109,4 +109,11 @@ footer a {
     #contact {
         display: none;
     }
+
+    .banner #overlay {
+        font-size: 12px;
+        bottom: 10%;
+        left: 5%;
+    }
+
 }
