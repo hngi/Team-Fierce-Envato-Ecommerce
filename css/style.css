@@ -1,0 +1,29 @@
+.banner {
+    background-color: red;
+    position: relative;
+}
+
+.banner #overlay {
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    background-color: #f69225;
+}
+
+.banner #overlay h3 {
+    font-weight: bolder;
+}
+
+.container h3 {
+    color: #605952;
+}
+
+section .card {
+    position: relative;
+}
+
+section .card .superSale {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
