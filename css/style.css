@@ -116,4 +116,8 @@ footer a {
         left: 5%;
     }
 
+    .banner {
+        width: 45px;
+        overflow: hidden;
+    }
 }
