@@ -30,6 +30,54 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--secondary-color) !important;
 }
 
+.btn.bg-primary:hover {
+  background: var(--primary-color) !important;
+  opacity: 0.9;
+}
+
 .container {
   padding-top: 5rem;
+}
+
+.contact h3 {
+  font-weight: bolder;
+}
+
+.contact-icon-sm {
+  display: none;
+}
+
+.contact-info-wrap ul {
+  list-style: none;
+}
+
+.contact-info-wrap .social-media li a {
+  color: var(--primary-color);
+}
+
+.contact-info-wrap .contact-info li {
+  margin-bottom: 1rem;
+}
+
+.contact-info-wrap .contact-info i {
+  padding-right: .5rem;
+  color: var(--primary-color);
+}
+
+.contact-info-wrap .social-media li {
+  margin-right: 1rem;
+}
+
+.contact-info-wrap .social-media li:last-child {
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .contact-icon-sm {
+    display: block;
+  }
+
+  .contact .contact-icon-lg {
+    display: none;
+  }
 }

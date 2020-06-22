@@ -5,10 +5,10 @@
 body {
     margin: 0;
     padding: 0;
-    width: 1366px;
+    /* width: 1366px;
     max-width: 100%;
 
-    overflow-x: hidden;
+    overflow-x: hidden; */
 }
 
 header {
@@ -32,25 +32,9 @@ header {
     font-weight: bolder;
 }
 
-a.current {
-    text-decoration: underline;
-    text-decoration-color: #f69225;
-
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: color: #605952;
-}
-
-.container h3,
-.container h5 {
+h1, h2, h3, h4, h5, h6, 
+.container h3, .container h5 {
     color: #605952;
-
 }
 
 div.card {
@@ -101,10 +85,6 @@ section .card .superSale {
     color: #f69225;
     display: flex;
     justify-content: space-around;
-}
-
-footer a {
-    color: #605952;
 }
 
 @media screen and (max-width:576px) {
