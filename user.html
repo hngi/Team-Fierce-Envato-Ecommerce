@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/about.css"> <!-- Use this link for your pages CSS -->
+    <link rel="stylesheet" href="css/user.css">
+
+    <title>Cart | Account Profile</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="bg-secondary">
+      <nav class="navbar navbar-expand-lg navbar-light bg-secondary py-3">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" width="100" alt="Cart"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav d-flex align-items-center ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link current" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Sign In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="img/icons/bx_bx-search-alt.svg" alt="search"></a>
+            </li>
+            <li class="nav-item btn bg-primary">
+              <a class="nav-link" href="register.html">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cart.html"><img src="img/icons/noto-v1_shopping-cart.svg" width="35" alt="cart"></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+    <!-- Desktop and Tablet Screen -->
+     <div class="w-90 mx-auto d-none d-md-block">
+      <h1>User Profile</h1>
+      <div class="w-24 float-left">
+       <div class="fx-bg fx-pad h-20 rounded">
+        <div class="float-left w-24">
+          <img src="img/icons/Group.png" alt="User Icon">
+        </div>
+        <div class="float-right w-75">
+          <strong><a href="#" class="fx-color">My Profile</a></strong><br>
+          <strong><a href="address.html">Account Information</a></strong>
+          <strong><a href="address.html">Delivery Address</a></strong>
+        </div>
+       </div>
+       <div class="fx-bg fx-pad h-20 rounded mt-3">
+        <div class="float-left w-24">
+          <img src="img/icons/Group (1).png" alt="Order Icon">
+        </div>
+        <div class="float-right w-75">
+          <strong>My Profile</strong><br>
+          <strong>Track my order</strong>
+        </div>
+       </div>
+      </div>
+      <div class="w-74 float-right fx-bg rounded mb-5">
+        <h2>Account Profile</h2>
+        <div class="mt-3 container">
+         <div class="row">
+          <div class="col">
+            <div>
+              <label for="first-name" class="mt-2">
+                <h6>First Name</h6>
+              </label>
+            </div>
+            <input type="text" class="fx-input" id="first-name" placeholder="John" pattern="" maxlength="16">
+          </div>
+          <div class="col">
+            <div>
+              <label for="last-name" class="mt-2">
+                <h6>Last Name</h6>
+              </label>
+            </div>
+            <input type="text" class="fx-input" id="last-name" placeholder="Doe" pattern="" maxlength="16">
+          </div>
+         </div>
+         <div class="row">
+          <div class="col">
+            <div>
+              <label for="email" class="mt-2">
+                <h6>Email</h6>
+              </label>
+            </div>
+            <input type="email" class="fx-input" id="email" placeholder="JohnDoe@yahoo.com" maxlength="35">
+          </div>
+          <div class="col">
+            <div>
+              <label for="password-1" class="mt-2">
+                <h6>Current Password</h6>
+              </label>
+            </div>
+            <input type="password" class="fx-input" id="password-1" placeholder="******" pattern="" maxlength="16" min="7">
+          </div>
+         </div>
+         <div class="row">
+          <div class="col">
+            <div>
+              <label for="password-2" class="mt-2">
+                <h6>New Password</h6>
+              </label>
+            </div>
+            <input type="password" class="fx-input" id="password-2" placeholder="******" pattern="" maxlength="16" min="7">
+          </div>
+          <div class="col">
+            <div>
+              <label for="password-3" class="mt-2">
+                <h6>Confirm Password</h6>
+              </label>
+            </div>
+            <input type="password" class="fx-input" id="password-3" placeholder="******" pattern="" maxlength="16" min="7">
+          </div>
+         </div>
+        </div>
+        <div class="mt-3 pl-3">
+          <span class="bg-primary py-1 px-2 point">SAVE CHANGES</span>
+          <span class="fx-color ml-3 point">CANCEL</span>
+        </div>
+      </div>
+     </div>
+     <!-- /Desktop and Tab Screen --> 
+     
+     <!-- Mobile Screen --> 
+     <div class="w-90 mx-auto d-block d-md-none mb-5">
+       <h1>Account Information</h1>
+       <div class="form">
+          <div>
+            <label for="first-name" class="mt-2">
+              <h6>First Name</h6>
+            </label>
+          </div>
+          <input type="text" class="fx-input" id="first-name" placeholder="John" pattern="" maxlength="16">
+          <div>
+            <label for="last-name" class="mt-2">
+              <h6>Last Name</h6>
+            </label>
+          </div>
+          <input type="text" class="fx-input" id="last-name" placeholder="Doe" pattern="" maxlength="16">
+          <div>
+            <label for="email" class="mt-2">
+              <h6>Email</h6>
+            </label>
+          </div>
+          <input type="email" class="fx-input" id="email" placeholder="JohnDoe@yahoo.com" maxlength="35">
+          <div>
+            <label for="password-1" class="mt-2">
+              <h6>Current Password</h6>
+            </label>
+          </div>
+          <input type="password" class="fx-input" id="password-1" placeholder="******" pattern="" maxlength="16" min="7">
+          <div>
+            <label for="password-2" class="mt-2">
+              <h6>New Password</h6>
+            </label>
+          </div>
+          <input type="password" class="fx-input" id="password-2" placeholder="******" pattern="" maxlength="16" min="7">
+          <div>
+            <label for="password-3" class="mt-2">
+              <h6>Confirm Password</h6>
+            </label>
+          </div>
+          <input type="password" class="fx-input" id="password-3" placeholder="******" pattern="" maxlength="16" min="7">
+       </div>
+       <div class="mt-3 bg-primary text-center">
+         <span class="point">SAVE CHANGES</span>
+       </div>
+       <div class="text-center mt-1">
+         <span class="fx-color point">CANCEL</span>
+       </div>
+     </div>
+    </main>
+
+    <!-- Footer -->
+        <div class="row ml-0 w-100 p-5 text-white text-center bg-light text-dark">
+                <div class="col-12 mb-3">
+                    <h2 class="mainOrange">Let’s keep the conversation going</h2>
+                </div>
+                <div class="col-12 mb-1">
+                    <p>
+                        Receive our newsletter and discover our stories, collections, and surprises.
+                    </p>
+                </div>
+                <div class="col-12 w-100 mb-3">
+                    <div class="row">
+                            <form class="form-inline mx-auto">
+                                <div class="form-group mb-2">
+                                    <label for="staticEmail2" class="sr-only">Email</label>
+                                    <input type="text" class="form-control" id="staticEmail2" placeholder="email@example.com">
+                                </div>
+                                <button type="submit" class="btn btn-dark mb-2 ml-2">Subcribe</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row mx-auto">
+                        <div class="col-8 col-lg-6 col-sm-12 mx-auto">
+                            <p>
+                                By subscribing to our newsletter, you agree that your data will be processed in compliance with our General 
+                                <a href="#" class="text-secondary">
+                                    Terms and Conditions of Use
+                                </a> and our 
+                                <a href="#" class="text-secondary">
+                                    Privacy Policy
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row bg-light py-5 pl-3 mobile">
+                    <div class="col-lg-3 col-md-3 col-sm-12 px-5 pt-3 pb-1">
+                        <h1 class="mainOrange">Services</h1>
+                        <p>
+                            <a href="#">Contact us</a>
+                        </p>
+                        <p>
+                            <a href="#">FAQ</a>
+                        </p>
+                        <p>
+                            <a href="#">Find a store</a>
+                        </p>
+                        <p>
+                            <a href="#">Gifting</a></p>
+                        <p>
+                            <a href="#">Made to</a>
+                        </p>
+                        <p>
+                            <a href="#">Measure</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 px-5 pt-3 pb-1">
+                        <h1 class="mainOrange">Orders</h1>
+                        <p>
+                            <a href="#">Payment</a>
+                        </p>
+                        <p>
+                            <a href="#">Shipping</a>
+                        </p>
+                        <p>
+                            <a href="#">Find a store</a>
+                        </p>
+                        <p>
+                            <a href="#">Gifting</a>
+                        </p>
+                        <p>
+                            <a href="#">Collect in store</a>
+                        </p>
+                        <p>
+                            <a href="#">Track orders</a>
+                        </p>
+                        <p>
+                            <a href="#">Exchange &amp; returns</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 px-5 pt-3 pb-1">
+                        <h1 class="mainOrange">
+                            <a href="#">Cart</a>
+                        </h1>
+                        <p>
+                            <a href="#">Home</a>
+                        </p>
+                        <p>
+                            <a href="#">Product</a>
+                        </p>
+                        <p>
+                            <a href="#">About us</a>
+                        </p>
+                        <p>
+                            <a href="#">Gifting</a>
+                        </p>
+                        <p>
+                            <a href="#">Collect in store</a>
+                        </p>
+                        <p>
+                            <a href="#">Contact us</a>
+                        </p>
+                        <p>
+                            <a href="#">Help</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 px-5 pt-3 pb-1">
+                        <h1 class="mainOrange">Legal</h1>
+                        <p>
+                            <a href="#">Terms and conditions</a>
+                        </p>
+                        <p>
+                            <a href="#">Privacy &amp; cookies</a>
+                        </p>
+                        <p>
+                            <a href="#">BCR</a>
+                        </p>
+                        <p>
+                            <a href="#">California Supply Act</a>
+                        </p>
+                        <p>
+                            <a href="#">Legal issues</a>
+                        </p>
+                        <p>
+                            <a href="#">Accessibility</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="row p-3 px-5 bg-light">
+                    <div class="col-12">
+                        <i class="fas fa-google-plus-g icons mx-2"></i>
+                        <i class="fas fa-twitter icons mx-2"></i>
+                        <i class="fas fa-facebook-f icons mx-2"></i>
+                        <i class="fas fa-instagram icons mx-2"></i>
+                    </div>
+                </div>
+                <div class="row footer-logo bg-light">
+                    <div class="col-12 mx-auto px-5 mx-auto text-center">
+                        <img src="./img/logo.png" class="mx-auto" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-12 mx-auto bg-light px-5 py-2 mx-auto">
+                        <p>&copy; 2020</p>
+                    </div>
+                </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
