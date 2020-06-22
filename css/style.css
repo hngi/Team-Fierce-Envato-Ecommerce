@@ -19,8 +19,6 @@ header {
     position: relative;
 }
 
-.banner img {}
-
 .banner #overlay {
     position: absolute;
     bottom: 20%;
@@ -44,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: color: #605952;
+    color: #605952;
 }
 
 .container h3,
