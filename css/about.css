@@ -1,0 +1,215 @@
+:root {
+  --primary-color: #f69225;
+  --secondary-color: #eee;
+  --font-stack: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-stack);
+  color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-stack);
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+/* Utility */
+.bg-primary {
+ background-color: var(--primary-color) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color) !important;
+}
+
+/* Section - Hero */
+.hero .hero-description-sm {
+  display: none;
+}
+
+.hero-bg {
+  height: 597px;
+  background: url('../img/Group-59.png') no-repeat center center/cover;
+}
+
+.hero h2 {
+  font-size: 72px;
+  color: #000;
+}
+
+.hero p {
+  font-size: 24px;
+}
+
+/* Section - Why Us */
+.why-us {
+  text-align: center;
+}
+
+.why-us p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.why-us, .who, .product, .testimony, .awards {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* Section Who */
+.who h3, .testimony h3, .awards h3 {
+  font-size: 36px;
+  margin-bottom: 1rem;
+}
+
+.who p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* Section - Product */
+.product .product-img {
+  height: 440px;
+}
+
+.product .product-img.product1 {
+  background: url('../img/Rectangle\ 11-3.png') no-repeat center center/cover;
+}
+
+.product .product-img.product2 {
+  background: url('../img/skirt-5304133_1280.jpg') no-repeat center center/cover;
+}
+
+.product .product-img.product3 {
+  background: url('../img/fashion-5205675_1280.jpg') no-repeat center center/cover;
+}
+
+.product h3 {
+  margin-bottom: 3rem;
+  font-size: 44.3992px;
+}
+
+.product-description h5 {
+  margin-top: 1.5rem;
+  color: #000;
+}
+
+.product-description p {
+  font-size: 18.4997px;
+  line-height: 28px;
+  color: #263238;
+}
+
+/* Section - Testimony */
+.testimony h3 {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.testimony .col-md {
+  margin-right: 3rem;
+  padding: 2rem;
+  text-align: left;
+  border-radius: 7px;
+}
+
+.testimony .col-md:last-child {
+  margin-right: 0;
+}
+
+.testimony img.rounded-circle {
+  max-width: 70.25px;
+  margin-right: .75rem;
+}
+
+.testimony span {
+  display: block;
+  font-size: 16.861px;
+}
+
+.testimony h6 {
+  color: #000;
+  font-size: 16.861px;
+  margin-bottom: 0;
+}
+
+.testimony p {
+  font-size: 13px;
+  line-height: 17px;
+}
+
+/* Awards */
+.awards h3 {
+  font-size: 40px;
+  margin-bottom: 3rem;
+}
+
+.awards p {
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .hero .hero-description-sm {
+    display: block;
+  }
+
+  .hero .hero-bg {
+    height: 240px;
+    background: url('../img/attractive-1846127_1280.jpg') no-repeat center center/cover;
+  }
+
+  .hero .hero-bg div {
+    display: none;
+  }
+
+  .hero .hero-description-sm {
+    padding: 2rem 3rem;
+    background: #fff;
+  }
+
+  .hero .hero-description-sm h2 {
+    font-size: 36px;
+  }
+
+  .why-us .col-md, .who .col-md:first-child {
+    margin-bottom: 2rem;
+  }
+
+  .why-us .col-md:last-child, .product .col-md:last-child, .testimony .col-md:last-child {
+    margin-bottom: 0;
+  }
+
+  .product .col-md {
+    margin-bottom: 3.5rem;
+  }
+
+  .product .product-img {
+    height: 270px;
+  }
+
+  .testimony .col-md {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .awards img {
+    width: 65px;
+  }
+
+  .awards img.lg {
+    width: 100px;
+  }
+
+  .awards p {
+    font-size: 10px;
+  }
+}
