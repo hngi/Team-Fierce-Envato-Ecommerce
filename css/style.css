@@ -30,11 +30,6 @@ header {
 	font-weight: bolder;
 }
 
-a.current {
-	text-decoration: underline;
-	text-decoration-color: #f69225;
-}
-
 h1,
 h2,
 h3,
