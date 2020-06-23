@@ -5,10 +5,6 @@
 body {
     margin: 0;
     padding: 0;
-    /* width: 1366px;
-    max-width: 100%;
-
-    overflow-x: hidden; */
 }
 
 header {
@@ -19,7 +15,33 @@ header {
     position: relative;
 }
 
-.banner img {}
+.banner .products-slide {
+  height: 580px;
+}
+
+.products-slide.slide1 {
+  background: url('../img/product.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.products-slide.slide2 {
+  background: url('../img/Rectangle.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.products-slide.slide3 {
+  background: url('../img/Rectangle.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 
 .banner #overlay {
     position: absolute;
