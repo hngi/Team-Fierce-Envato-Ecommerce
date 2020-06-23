@@ -114,6 +114,9 @@ footer a {
 		overflow: hidden;
 		overflow-x: hidden;
 	}
+	ol#slides li {
+		background-color: #373232;
+	}
 	.banner img {
 		width: 600px;
 		padding: 5%;
