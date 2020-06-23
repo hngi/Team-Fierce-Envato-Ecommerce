@@ -112,5 +112,9 @@ footer a {
 	.banner {
 		width: 450px;
 		overflow: hidden;
+		overflow-x: hidden;
+	}
+	header {
+		overflow-x: hidden;
 	}
 }
