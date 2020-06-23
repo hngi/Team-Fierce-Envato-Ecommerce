@@ -93,7 +93,9 @@ section .card .superSale {
 	display: flex;
 	justify-content: space-around;
 }
-
+div.footer-logo {
+	border-top: 2px solid #3211;
+}
 footer a {
 	color: #605952;
 }
@@ -114,9 +116,7 @@ footer a {
 		overflow: hidden;
 		overflow-x: hidden;
 	}
-	ol#slides li {
-		background-color: #373232;
-	}
+
 	.banner img {
 		width: 600px;
 		padding: 5%;
