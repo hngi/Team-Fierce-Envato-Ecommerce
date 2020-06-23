@@ -19,28 +19,8 @@ header {
   height: 580px;
 }
 
-.products-slide.slide1 {
-  background: url('../img/product.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-.products-slide.slide2 {
-  background: url('../img/Rectangle.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-.products-slide.slide3 {
-  background: url('../img/Rectangle.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+.carousel-indicators li {
+  background-color: #f69225;
 }
 
 .banner #overlay {
