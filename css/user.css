@@ -1,0 +1,45 @@
+:root {
+  --fx-color: #FCFCFC;
+}
+
+.w-90 {
+  width: 90%;
+  margin-top: 20px;
+}
+h1,h2,h3,h4,h5,h6 {
+  color: #000 !important;
+}
+.fx-bg {
+  background: var(--fx-color);
+}
+.fx-color {
+  color: var(--primary-color) !important;
+}
+.w-24 {
+  width: 24%;
+}
+.w-74 {
+  width: 74%;
+  padding: 50px 15px 15px;
+}
+.fx-pad {
+  padding: 10% 1% 1% 17%;
+}
+.h-20 {
+  height: 145px;
+}
+.fx-input {
+  width: 100%;
+}
+.point {
+  cursor: pointer;
+}
+.pb-1 p a, .pb-1 h1 a {
+  color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile {
+    text-align: center;
+  }
+}
