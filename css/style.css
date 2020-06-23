@@ -114,6 +114,10 @@ footer a {
 		overflow: hidden;
 		overflow-x: hidden;
 	}
+	.banner img {
+		width: 600px;
+		padding: 5%;
+	}
 	header {
 		overflow-x: hidden;
 	}
