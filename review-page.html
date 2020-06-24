@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!----------- Font Awesome------------->
+    <script src="https://kit.fontawesome.com/9c86db6092.js" crossorigin="anonymous"></script>
+
+    <!------------ Bootstrap CSS ------------>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-------- Custom css files---------->
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/review-page.css">
+    <title>Review-Page</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="bg-secondary">
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondary py-3">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" width="100" alt="Cart"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav d-flex align-items-center ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link current" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="img/icons/bx_bx-search-alt.svg" alt="search"></a>
+                    </li>
+                    <li class="nav-item btn bg-primary">
+                        <a class="nav-link" href="register.html">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html"><img src="img/icons/noto-v1_shopping-cart.svg" width="35"
+                                alt="cart"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="center-container ">
+                    <div class="vans text-light">vans</div>
+                    <ul class="list">
+                        <li>Home</li>
+                        <li>-</li>
+                        <li>Shoes</li>
+                        <li>-</li>
+                        <li>Vans</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container ">
+            <div class="row">
+                <div class="left-cont col-md-6 col-12">
+                    <div class="big-red-vans col-12">
+                        <img src="./img/Rectangle 11-3b.png" alt="red vans">
+                    </div>
+                    <div class="other-vans col-12 my-2">
+                        <img src="./img/Rectangle 11-2.png" alt="green vans">
+                        <img src="./img/test.png" alt="wine vans">
+                        <img src="./img/footy-2.jpeg" alt="footy">
+                        <img src="./img/footy-1b.jpeg" alt="black">
+                    </div>
+                </div>
+                <div class="shoe-details col-md-6 col-12">
+                    <div class="title">
+                        <div class="names">Vans</div>
+                        <div class="icons">
+                            <i class="fas fa-cart-plus mx-2"></i>
+                            <i class="fab fa-gratipay"></i>
+                        </div>
+                    </div>
+                    <div class="stars">
+                        <img src="./img/icons/Rating - 5.png" alt="4 stars">
+                        (18 Reviews)
+                    </div>
+                    <div class="price">$50.00</div>
+                    <div class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, id repudiandae
+                        deleniti voluptatem temporibus, iusto ad nesciunt delectus, cupiditate libero commodi fugiat.
+                        Ducimus animi qui consequatur reiciendis, praesentium nisi sed?
+                    </div>
+                    <div class="buttons">
+                        <button type="button" class="btn btn-warning text-light">Check Out</button>
+                        <button type="button" class="btn btn-warning text-light">Add To Cart</button>
+                    </div>
+                    <div class="detail-bottom">
+                        <div class="avail">
+                            <p class='topic'>availability</p>
+                            <p class='the-p'>in stock</p>
+                        </div>
+                        <div class="avail">
+                            <p class='topic'>Shipping</p>
+                            <p class='the-p'>3 days shipping</p>
+                        </div>
+                        <div class="avail">
+                            <p class='topic'>Weight</p>
+                            <p class='the-p'>0.5 kg</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container the-buttons py-5">
+            <button type="button" class="btn button ">Description</button>
+            <button type="button" class="btn button ">Manufacturer</button>
+            <button type="button" class="btn  button yellow">Reviews</button>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7 textarea-box">
+                    <textarea name="message" id="message" rows="7" placeholder="Write a comment..."></textarea>
+                    <div class="rate">
+                        <img src="./img/icons/Star-0.png" alt="star">
+                        <button type="button" class="btn button bg-warning text-light">Send</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 ratings">
+                    <p class="review">Give a Review</p>
+                    <div class="star-row">
+                        <img src="./img/icons/reviews - Copy.PNG" alt="">
+                        <div class="percentages">
+                            <p class="percent">20 reviews</p>
+                            <p class="percent">15 reviews</p>
+                            <p class="percent">10 reviews</p>
+                            <p class="percent">10 reviews</p>
+                            <p class="percent">5 reviews</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-12 col-md-7 all-reviews">
+                    <p class="number">60 Reviews</p>
+                    <div class="feedbacks">
+                        <div class="images">
+                            <img src="./img/Ellipse (3).png" alt="person1" class="person">
+                        </div>
+                        <div class="right">
+                            <div class="top">
+                                <div class="name-box">
+                                    <p class="name">Wale Ajayi</p>
+                                    <img src="./img/icons/Rating - 5.png" alt="5 star">
+                                </div>
+                                <div class="date">
+                                    <p>24 May, 2015</p>
+                                </div>
+                            </div>
+                            <p class="comment">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo
+                                eveniet
+                                iste
+                                harum pariatur.</p>
+                        </div>
+                    </div>
+                    <div class="feedbacks">
+                        <div class="images">
+                            <img src="./img/Ellipse (2).png" alt="person1" class="person">
+                        </div>
+                        <div class="right">
+                            <div class="top">
+                                <div class="name-box">
+                                    <p class="name">Shola Allyson</p>
+                                    <img src="./img/icons/Rating - 5.png" alt="5 star">
+                                </div>
+                                <div class="date">
+                                    <p class="date">10 December, 2015</p>
+                                </div>
+                            </div>
+                            <p class="comment">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo
+                                eveniet
+                                iste
+                                harum pariatur.</p>
+                        </div>
+                    </div>
+                    <div class="feedbacks">
+                        <div class="images">
+                            <img src="./img/Ellipse (1).png" alt="person1" class="person">
+                        </div>
+                        <div class="right">
+                            <div class="top">
+                                <div class="name-box">
+                                    <p class="name">Felix Gbada</p>
+                                    <img src="./img/icons/Rating - 5.png" alt="5 star">
+                                </div>
+                                <div class="date">
+                                    <p class="date">7 January, 2016</p>
+                                </div>
+                            </div>
+                            <p class="comment">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo
+                                eveniet
+                                iste
+                                harum pariatur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--------------Bootstrap JS files------------>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<!----------
+---------->
