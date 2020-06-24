@@ -1,0 +1,350 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.jumbotron {
+    background-image: url(/img/Rectangle\ 18.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron .container .center-container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.jumbotron .container .center-container .vans{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.jumbotron .container .center-container .list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.jumbotron .container .center-container .list li{
+    margin: 0 6px;
+    color: white;
+}
+
+
+.container .row .left-cont .big-red-vans {
+    width: 100%;
+}
+
+.container .row .left-cont .big-red-vans img{
+    width: 100%;
+}
+
+.other-vans{
+    display: flex;
+    justify-content: space-between;
+}
+
+.other-vans img{
+    width: 22%;
+}
+
+
+.shoe-details .title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.shoe-details .title .names{
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+
+.shoe-details .title .icons i{
+    color: orange;
+}
+
+.shoe-details .stars{
+    color: red;
+    padding: 10px 0;
+}
+
+.shoe-details .price{
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.shoe-details .details {
+    padding: 20px 0;
+    opacity: 50%;
+}
+.shoe-details .buttons{
+    padding: 10px 0;
+    border-bottom: 1px solid grey;
+}
+
+.shoe-details .detail-bottom{
+    padding: 20px 0;
+}
+
+.shoe-details .detail-bottom .avail{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.shoe-details .detail-bottom .avail .topic{
+    width: 50%;
+    font-weight: bolder;
+}
+
+.shoe-details .detail-bottom .avail .the-p{
+    width: 50%;
+    align-self: flex-start;
+}
+
+.the-buttons{
+    width: 60%;
+}
+
+.the-buttons .button{
+    background: lightgrey;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.the-buttons .yellow{
+    background: orange;
+    color: white;
+}
+
+.textarea-box{
+    padding: 15px 10px;
+}
+
+textarea{
+    width: 90%;
+    background: lightgray;
+    border: none;
+}
+textarea:hover{
+    border: none;
+    background: rgb(250, 248, 248) ;
+}
+
+.rate {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.rate .button{
+    border-radius: 20px;
+    padding: 3px 35px;
+}
+
+.ratings .review{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.ratings .star-row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.star-row{
+    display: flex;
+    justify-content: center;
+}
+
+.star-row .percentages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.all-reviews .number{
+    font-size: 1.7rem;
+}
+
+.feedbacks {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.feedbacks .images{
+    width: 30%;
+}
+
+.feedbacks .images .person{
+    width: 80%;
+    height: 80%;
+}
+
+.feedbacks .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feedbacks .right .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedbacks .right .top .name-box{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feedbacks .right .top .name-box p{
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 470px) {
+    .jumbotron .container .center-container{
+        width: 60%;
+    }
+
+    .jumbotron .container .center-container .vans{
+        font-size: 1.5rem;
+        font-weight: 350;
+    }
+
+    .jumbotron .container .center-container .list{
+        font-size: 0.7rem;
+        font-weight: 300;
+    }
+
+    .shoe-details{
+        padding: 0 30px;
+    }
+
+    .shoe-details .buttons{
+        border-bottom: none;
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .shoe-details .buttons .btn{
+        font-size: small;
+        padding: 5px 10px;
+    }
+
+    .shoe-details .detail-bottom{
+        display: none;
+    }
+
+    .the-buttons{
+        width: 80%;
+    }
+
+    .the-buttons .button{
+        font-size: small;
+        background: white;
+        color: black;
+        font-weight: bold;
+        margin: 0;
+
+    }
+
+    .the-buttons .yellow{
+        color: orange;
+    }
+
+    .ratings{
+        display: none;
+    }
+
+    .textarea-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .textarea-box textarea{
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+    .rate .button{
+        font-size: small;
+    }
+
+    .all-reviews .number{
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    .feedbacks{
+        margin: 7px 0;
+    }
+
+    .feedbacks .images{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .feedbacks .images .person{
+        width: 60%;
+        height: 60%;
+    }
+
+    .feedbacks .right{
+        width: 60%;
+        align-self: flex-end;
+        
+    }
+
+    .feedbacks .right .comment{
+        font-size: smaller;
+        font-weight: lighter;
+    }
+
+    .feedbacks .right .top .name-box{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .feedbacks .right .top .name-box img{
+        width: 60%;
+        margin: 0;
+    }
+
+    .feedbacks .right .top .name-box .name{
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .feedbacks .right .top .date{
+        display: none;
+    }
+}
+

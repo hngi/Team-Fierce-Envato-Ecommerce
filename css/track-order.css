@@ -1,0 +1,142 @@
+ol.breadcrumb {
+  /* font-size: 20px; */
+  background-color: #fff;
+  color: #c4c4c4;
+}
+ol.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  content: "|";
+  color: #828282;
+}
+ol.breadcrumb .breadcrumb-item.active {
+  color: #f69225;
+}
+a.text-primary {
+  color: #f69225 !important;
+  /* font-size: 20px !important; */
+}
+a.text-primary:hover {
+  color: #d47003 !important;
+}
+.custom-progress {
+  position: relative;
+  top: 18px;
+  z-index: -1;
+  height: 3px;
+}
+i.text-primary {
+  color: #f69225 !important;
+  background-color: #fff;
+  font-size: 2rem;
+}
+p.general-header {
+  font-size: 25px;
+  color: #fff;
+}
+.info-text-head {
+  font-size: 25px;
+}
+.address-info {
+  font-size: 16px;
+  overflow-wrap: anywhere;
+}
+.product-table-md th {
+  vertical-align: middle !important;
+}
+.summary-list.bg-secondary {
+  background: rgba(218, 218, 218, 0.28) !important;
+}
+.summary-list.bg-secondary span {
+  font-weight: bold;
+}
+.card-body .item-name {
+  font-size: 24px;
+  /* line-height: 30px; */
+}
+.card-body .item-price {
+  font-size: 32px;
+}
+
+/* Owl Carousel Button Settings */
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-prev:hover{
+    position: absolute;
+    left: 0;
+    top: 35%;
+    background: #f69225;
+    border-radius: 100% !important;
+    color: inherit;
+    border: none;
+    outline: none;
+    padding: 0!important;
+    font-size: 25px;
+    width: 50px;
+    /* vertical-align: middle; */
+    text-align: center;
+    height: 50px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-next:hover{
+    position: absolute;
+    right: 0;
+    top: 35%;
+    background: #f69225;
+    border-radius: 100% !important;
+    color: inherit;
+    border: none;
+    outline: none;
+    padding: 0!important;
+    font-size: 25px;
+    width: 50px;
+    /* vertical-align: middle; */
+    text-align: center;
+    height: 50px;
+}
+
+/* Media Query For Medium and small devices */
+@media (max-width: 767px) {
+  ol.breadcrumb {
+    font-size: 10px;
+  }
+  .order-status {
+    font-size: 12.5px;
+  }
+  a.text-primary {
+    font-size: 10px !important;
+  }
+  i.text-primary {
+    color: #f69225 !important;
+    background-color: #fff;
+    font-size: 1rem;
+  }
+  .custom-progress {
+    top: 10px;
+    z-index: -1;
+    height: 1.5px;
+  }
+  p.progress-text {
+    font-size: 7px !important;
+  }
+  img.progress-icon {
+    width: 20px;
+    height: 12px;
+  }
+  p.general-header {
+    font-size: 15px;
+  }
+  p.info-text-head {
+    font-size: 1rem;
+  }
+  .address-info {
+    font-size: 12px;
+  }
+  .card-body .item-name {
+    font-size: 12px;
+    /* line-height: 30px; */
+  }
+  .card-body .item-price {
+    font-size: 1rem;
+  }
+  .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+      width: 30px;
+      height: 30px;
+      font-size: 16px;
+  }
+}
